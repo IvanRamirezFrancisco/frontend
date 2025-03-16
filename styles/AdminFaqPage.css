@@ -1,0 +1,109 @@
+.faq-container {
+  max-width: 700px;
+  margin: 40px auto;
+  margin-top: 110px;
+  margin-bottom: 150px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FORMULARIO */
+.faq-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea.faq-input {
+  height: 80px;
+  resize: vertical;
+  
+}
+
+.faq-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add {
+  background-color: #4DB8FF;
+  color: white;
+}
+
+.add:hover {
+  background-color: #429edc;
+}
+
+/* LISTA DE PREGUNTAS */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq-item {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-content strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.faq-content p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* BOTONES */
+.faq-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.faq-button.edit {
+  background-color: #3c773e;
+  color: white;
+}
+
+.faq-button.delete {
+  background-color: #8e2c25;
+  color: white;
+}
+
+.faq-button.save {
+  background-color: #007bff;
+  color: white;
+}
+
+.faq-button.cancel {
+  background-color: #ccc;
+  color: black;
+}
+
+.faq-button:hover {
+  opacity: 0.8;
+}
