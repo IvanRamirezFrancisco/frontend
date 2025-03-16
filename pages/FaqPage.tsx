@@ -1,4 +1,3 @@
-// src/pages/FaqPage.tsx
 import React,{ useEffect, useState } from "react";
 import '../styles/FaqStyles.css'; 
 import axios from "axios"; 
