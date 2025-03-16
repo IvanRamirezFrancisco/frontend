@@ -1,4 +1,4 @@
-/* Estilos base mejorados */
+
 .policy-container {
   max-width: 1000px;
   margin: 5rem auto 2rem;
@@ -8,9 +8,9 @@
   box-shadow: 0 8px 30px rgba(0,0,0,0.1);
   font-family: 'Segoe UI', system-ui, sans-serif;
 }
-/* Ajustes al formulario para evitar superposición */
 
-/* Encabezado */
+
+
 .policy-container h2 {
   text-align: center;
   color: #2c3e50;
@@ -52,13 +52,13 @@
 }
 
 .policy-textarea {
-  width: 100%; /* Mantiene el ancho fijo */
-  height: 120px; /* Altura fija inicial */
-  resize: vertical; /* Solo permite redimensionar hacia abajo */
-  overflow-y: auto; /* Habilita desplazamiento si el texto es muy largo */
-  min-height: 120px; /* Evita que se haga más pequeño */
-  max-height: 300px; /* Evita que crezca demasiado */
-  text-align: center; /* Centrado dentro del contenedor */
+  width: 100%; 
+  height: 120px;
+  resize: vertical; 
+  overflow-y: auto; 
+  min-height: 120px; 
+  max-height: 300px; 
+  text-align: center;
 }
 
 

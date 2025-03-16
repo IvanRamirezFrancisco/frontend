@@ -1,4 +1,3 @@
-// frontend/terminosycondiciones.tsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -16,7 +15,7 @@ const TerminosCondiciones: React.FC = () => {
     const fetchTerms = async () => {
       try {
         const response = await axios.get("http://localhost:4000/api/terms");
-        // Ordena los términos alfabéticamente por título
+        
         setDynamicTerms(response.data.sort((a: Term, b: Term) => a.title.localeCompare(b.title)));
       } catch (error) {
         console.error("Error obteniendo términos:", error);

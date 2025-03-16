@@ -20,8 +20,6 @@ const FooterComponent = () => {
                   </Link>
               </li>
               <li style={styles.linkItem}>
-              {/* Ajusta aquí la ruta de tu FAQ; 
-                  si el FAQ está en "/", pon "/" */}
               <Link to="/" style={styles.link}>
                 Preguntas frecuentes
               </Link>
@@ -45,8 +43,8 @@ export default FooterComponent;
 
 const styles: { [key: string]: CSSProperties } = {
   footer: {
-      backgroundColor: '#000000',  // Cambiado a negro
-      color: '#ffffff',            // Texto blanco agregado
+      backgroundColor: '#000000',  
+      color: '#ffffff',           
       padding: '24px',
       display: 'flex',
       flexDirection: 'row',
@@ -59,13 +57,13 @@ const styles: { [key: string]: CSSProperties } = {
   section: {
       marginBottom: '16px',
       textAlign: 'center',
-      color: '#ffffff'            // Texto blanco agregado
+      color: '#ffffff'            
   },
   title: {
       fontSize: '1.25rem',
       fontWeight: '600',
       marginBottom: '8px',
-      color: '#ffffff'            // Texto blanco agregado
+      color: '#ffffff'            
   },
   linkList: {
       display: 'flex',
@@ -80,21 +78,21 @@ const styles: { [key: string]: CSSProperties } = {
       marginLeft: '8px',
   },
   link: {
-      color: '#ffffff',           // Cambiado a blanco
+      color: '#ffffff',           
       textDecoration: 'none',
       transition: 'color 0.2s',
       cursor: 'pointer'
   },
   linkHover: {
-      color: '#4DB8FF'           // Cambiado a azul claro para mejor contraste
+      color: '#4DB8FF'           
   },
   socialIcons: {
       display: 'flex',
       gap: '16px',
-      color: '#ffffff'           // Cambiado a blanco
+      color: '#ffffff'           
   },
   contact: {
-      color: '#ffffff'           // Cambiado a blanco
+      color: '#ffffff'           
   }
 };
 
